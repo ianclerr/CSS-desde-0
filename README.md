@@ -1,2 +1,3 @@
 # CSS-desde-0
-Aprendiendo CSS desde 0, estaremos modificando el PortFolio anterior que hicimos con HTML
+Aprendiendo CSS desde 0. Estaremos modificando el PortFolio.
+Que hicimos en el curso de: HTML-desde-0
