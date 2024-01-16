@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f5f9;
+    color: #333;
+}
+
+h1 {
+    color: #1a237e;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+}
+
+p {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 600px;
+}
+
+a {
+    margin: 10px;
+    color: #1e88e5; /* Color de los enlaces */
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #1565c0; /* Cambio de color al pasar el mouse */
+    border-bottom: 2px solid #1565c0;
+}
+
+.link:active {
+    color: #0d47a1; /* Cambio de color al hacer clic */
+}
+
+/* Listas */
+li:first-child {
+    color: #673ab7;
+}
+
+li:last-child {
+    color: #e57373;
+}
+
+/* Formulario */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pseudoelementos y pseudoclases adicionales */
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1a237e;
+}
+
+/* Estilos para los videos */
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+iframe,
+video {
+    width: 48%;
+    margin: 10px;
+}
+video{
+    height: 45vh;
+   
+}
+
+/* Estilos para la sección de preguntas frecuentes */
+details {
+    margin: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+    color: #2196f3;
+}
+
+/* Estilos para la sección de tecnologías favoritas */
+aside h3 {
+    color: #1976d2;
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
